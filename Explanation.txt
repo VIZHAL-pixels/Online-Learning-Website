@@ -1,0 +1,2 @@
+This website provides the free and fast learning of the course that they want. i built this website by the inspiration the leetcode and geeksforgeeks.
+This website is the combination of leetcode and geeksforgeeks.
