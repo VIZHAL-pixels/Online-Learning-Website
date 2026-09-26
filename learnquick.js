@@ -38,6 +38,14 @@ function callme(){
     //alert("Welcome to LearnQuick.com");
 
 }
-function menu(){
-    alert("This is menu");
+let menuOpen = false;
+
+function menu() {
+    if (!menuOpen) {
+        document.getElementById("menu-items").style.left = "0px";
+        menuOpen = true;
+    } else {
+        document.getElementById("menu-items").style.left = "-200px";
+        menuOpen = false;
+    }
 }

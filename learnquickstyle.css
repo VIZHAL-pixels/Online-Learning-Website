@@ -7,6 +7,20 @@
 div+h3{
     margin-left: 20px;
 }
+#menu-items{
+    background-color: #abbfe7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 10px 0px 10px 0px;
+    row-gap: 20px;
+    width:200px;
+    transition:0.5s ease-in-out;
+    position : fixed;
+    left: -200px;
+}
 .nav{
     height: fit-content;
     display:flex;
